@@ -450,6 +450,7 @@ span {
 
     .home-img img {
         width: 70vw;
+        height: 50vh;
         margin-top: 4rem;
     }
 
@@ -486,6 +487,24 @@ span {
         font-size: 50%;
     }
 
+    .about-content{
+        width: 340px;
+    }
+
+    .about img {
+        width: 70vw;
+        height: 85vw;
+        margin-top: 4rem;
+    }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 70px;
+        gap: 2.2rem;
+        width: 60vw;
+    }
+
     .contact form .input-box input{
         width: 100%;
     }
@@ -497,7 +516,7 @@ span {
     }
 
     .about-img img{
-        width: 90vw;
+        width: 70vw;
     }
 
     .footer{
