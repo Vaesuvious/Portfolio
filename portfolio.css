@@ -476,6 +476,19 @@ span {
     }
 }
 
+@media(min-width: 736px) and (min-height: 414px){
+    .home-img img{
+        width: 40vw;
+        height: 90vh;
+    }
+
+    .about img {
+        width: 40vw;
+        height: 50vw;
+        margin-top: 4rem;
+    }
+}
+
 @media(max-width: 617px){
     .portfolio-container {
         grid-template-columns: 1fr;
