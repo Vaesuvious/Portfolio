@@ -476,10 +476,11 @@ span {
     }
 }
 
-@media(min-width: 736px) and (min-height: 414px){
+@media(min-width: 915px) and (min-height: 412px){
     .home-img img{
         width: 40vw;
-        height: 90vh;
+        height: 50vw;
+        padding-left: 20px;
     }
 
     .about img {
@@ -522,6 +523,19 @@ span {
         width: 100%;
     }
 }
+
+/*@media(min-width: 915px) and (min-height: 412px){
+    .home-img img{
+        width: 40vw;
+        height: 90vh;
+    }
+
+    .about img {
+        width: 50vw;
+        height: 60vw;
+        margin-top: 4rem;
+    }
+}*/
 
 @media(max-width: 365px){
     .home-img img{
